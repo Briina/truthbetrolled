@@ -1,0 +1,226 @@
+/*
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+*/
+
+@media only screen and (max-width: 480px) {
+
+    
+} 
+
+
+@media screen and (max-width: 600px) {
+    #parallax{
+       display:none;
+    }
+    #header_img_mobile{
+        display: inline;
+        width: 100%;
+    }
+    #content{
+        margin-top: 10px;
+    }
+    #short_description_mobile{
+        display: inline;
+    }
+    #short_description_mobile h3{
+        padding-right:10%;
+        padding-left: 10%;
+    }
+    .story_decoration{
+        height: 38.5px;
+        background-size: 300px;
+    }
+   .features_decoration{
+        height: 38.5px;
+        background-size: 300px;
+        margin-bottom: 10px;
+   }
+   #story_text{
+        padding-bottom: 10px;
+        padding-left: 10%;
+        width: 80%;
+        margin-top: 10px;
+    } 
+    #story_img{
+        margin-left:10%;
+        max-width: 80%;
+        padding-bottom: 20px;
+        max-height: 400px;
+    }
+    .screenshot{
+        display: inline-block;
+        width: 100%;
+        padding-right: 0%;
+    }
+    #gallery p{
+        padding-left: 0% !important;
+        padding-right: 0% ;
+    }
+    #gallery{
+        padding-left:10%!important;
+        padding-right:10%!important;
+    }
+    #features_text{
+        width:80%;
+        margin-bottom: 20px;
+    }
+    #features_img{
+        margin-bottom: 30px;
+        width:80%;
+        margin-left: 10%;
+    }
+    .bio{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        display:block;
+    
+    }
+    .avatar{
+        max-width: 1000px;
+        width:40%;
+        display: inline;
+        margin-left: 10%;
+        padding-left: 0%;
+        padding-right: 20%;
+    }
+    .about_text{
+        color: white;
+        width: 90%;
+        max-width: 1000px;
+        padding-left:10%;
+        padding-right: 0%;
+    }
+    #recruitment_text{
+        max-width: 80%;
+    }
+    #recruitment img{
+        display: inline-block;
+        margin-left:10%;
+        max-width: 100%;
+    }
+    #recruitment button{
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: transparent;
+        border: 1px solid #9A4536;
+        padding: 10px 35px 10px 35px;
+        font-family: Judson;
+        color: #9A4536;
+    }
+    #footer h3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 759px) and (min-width: 500px) {
+    #parallax{
+        height: 850px;
+    }
+    .parallax_layer{
+        background-size: 850px;   
+    }
+    #footer h3{
+        display: none;
+    }
+    #content{
+        margin-top: 1800px;
+    }
+    #short_description{
+        padding-bottom: 30px;
+        margin-top: 600px;
+    }
+} 
+
+@media screen and (max-width: 900px){
+    #menu{
+        display: none;
+    }
+    #presskit{
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 760px) {
+    #parallax{
+        height: 1000px;
+    }
+    .parallax_layer{
+        background-size: 1000px;   
+    }
+    
+    #content{
+        margin-top: 2000px;
+        z-index: 0;
+         background-color:#441700;
+        position: relative;
+    }
+    
+    #short_description{
+        margin-top: 700px;
+        padding-bottom: 300px;
+    }
+} 
+@media screen and (max-width: 1324px) and (min-width: 1041px) {
+    #parallax{
+        height: 1300px;
+    }
+    .parallax_layer{
+        background-size: 1300px;   
+    }
+
+    #content{
+        margin-top: 3000px;
+        z-index: 0;
+         background-color:#441700;
+        position: relative;
+    }
+    
+    #short_description{
+        font-family: JudsonBold; 
+        font-size: 12pt;
+        color: #F3D07E;
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: center;
+        padding-bottom: 30px;
+        background-color: #441700;
+        position: fixed;
+        margin-top: 960px;
+        padding-bottom: 300px;
+    }
+}
+@media screen and (min-width: 1325px) {
+
+    .screenshot{
+        display: inline-block;
+        width: 33.1%;
+        padding-right: 0%;
+    }
+    #gallery p{
+        padding-left: 0% !important;
+        padding-right: 0% ;
+    }
+    #gallery{
+        padding-left:10%!important;
+        padding-right:10%!important;
+    }
+}
+
+@media screen and (min-width: 1825px) {
+
+.content{
+    padding-left:20%
+    padding-right: 20%
+}
+}
+
+
+
+
